@@ -10,27 +10,28 @@
 body {
 	margin: 0;
 	background-image: url("../img/bg.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
+
 }
 
 header {
 	margin-left: 10px;
 }
 
-#drop {
+i#drop {
 	position: relative;
 	left: 50%;
 }
 
-.dropdown {
+div.dropdown {
 	position: fixed;
 	width: 70px;
 	height: 205px;
 	left: 13%;
 }
 
-.dropdownContent {
+nav.dropdownContent {
 	display: none;
 	background-color: rgba(255, 255, 255, 0.5);
 	position: fixed;
@@ -41,16 +42,16 @@ header {
 	width: 14.9%;
 }
 
-.dropdown:hover .dropdownContent {
+div.dropdown:hover nav.dropdownContent {
 	display: block;
 }
 
-.dropdownContent a {
+nav.dropdownContent a {
 	display: block;
 	padding: 5px 10px;
 }
 
-.dropdownContent a:hover:not(.active) {
+nav.dropdownContent a:hover:not(.active) {
 	background-color: rgba(193,193,193,0.5);
 	color: #ffffff;
 }
